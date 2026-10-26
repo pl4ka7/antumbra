@@ -1,0 +1,55 @@
+Antumbra is a private web browser that sends every page through the Tor network. Websites see a Tor relay instead of your IP address, your network sees encrypted traffic instead of the sites you visit, and nothing you do is stored on the phone.
+
+IDENTITIES, NOT JUST TABS
+• Keep Personal, Work and Research apart, or create your own identity spaces.
+• Each identity has its own cookies, logins and Tor circuits, so sites cannot link them, even when you are signed in to two accounts on the same site.
+
+READ, SAVE, SUMMARISE
+• Reader view strips a page down to its text: no scripts, no trackers, adjustable size.
+• Summarise any article with AI, sent through Tor.
+• Save pages to a vault encrypted with a hardware-backed key. Nothing is ever synced.
+• A built-in directory of verified onion addresses for BBC, The Guardian, ProPublica, Proton Mail, DuckDuckGo and more.
+
+A SHIELD FOR EVERY SITE
+• See trackers blocked on each page, the circuit it uses and its identity.
+• Turn JavaScript off or request the desktop site per tab.
+• Find in page, downloads through Tor, and Antumbra can be your default browser.
+
+BUILT ON TOR
+• Tor runs inside the app. No other app or account is needed.
+• Every site gets its own Tor circuit, so sites cannot link your visits through a shared exit.
+• See the circuit behind any page: guard, middle and exit relays with their countries.
+• "New circuit for this site" and "New identity" whenever you need a fresh start.
+• Fail-closed by design: if Tor drops, pages stop loading. Nothing falls back to a direct connection.
+
+WORKS WHERE TOR IS BLOCKED
+• Built-in Snowflake, obfs4 and meek bridges, refreshed over Tor.
+• Automatic mode starts direct and switches to bridges by itself when the network blocks Tor.
+• Add your own bridges, pick an exit country, or connect through an upstream proxy.
+
+LEAVES NO TRACE
+• Every tab is private. Tabs, cookies and history live in memory only.
+• Screenshots and the recent-apps preview are blocked. The keyboard runs in incognito mode.
+• Auto-wipe when you leave the app or after a few minutes away.
+• Optional fingerprint or screen-lock protection, a discreet launcher icon, and a Quick Settings tile that wipes everything in one tap.
+
+HARDENED ENGINE
+• Gecko engine with fingerprinting resistance, strict tracking protection and HTTPS-only mode.
+• Three security levels, from full websites to JavaScript off everywhere.
+• WebRTC, location, motion sensors, downloads and links to other apps are blocked, because each of them can reveal who you are.
+• Onion sites are supported natively, and Antumbra offers the .onion version when a site has one.
+• Private search through the onion services of DuckDuckGo, Brave Search and Ahmia.
+
+ASK AI, PRIVATELY
+• Chat with hundreds of models using your own OpenRouter key, or any OpenAI-compatible endpoint, including your own server on an onion address.
+• Requests travel through Tor, so the provider never sees your IP address. Chats are never saved.
+• Zero data retention routing is on by default.
+
+WALLETS AND OTHER APPS
+• Antumbra can share its Tor connection with wallets and other apps that support a SOCKS5 proxy.
+• Payment and WalletConnect links open only after you confirm, with a clear warning about what leaves Tor.
+
+HONEST LIMITS
+Antumbra does not look identical to Tor Browser, so a website can tell them apart. No tool protects you if you sign in to your accounts or share personal details. For high-risk situations, use Tor Browser or Tails.
+
+Antumbra is not affiliated with or endorsed by The Tor Project. Tor is a trademark of The Tor Project, Inc.

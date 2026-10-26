@@ -1,0 +1,38 @@
+[versions]
+agp = "9.4.0"
+kotlin = "2.4.21"
+geckoview = "158.0.20261021001945"
+torAndroid = "0.4.9.14"
+jtorctl = "0.4.5.7"
+iptproxy = "5.5.1"
+composeBom = "2026.09.00"
+activity = "1.10.1"
+fragment = "1.8.5"
+lifecycle = "2.9.4"
+core = "1.16.0"
+splashscreen = "1.0.1"
+biometric = "1.1.0"
+coroutines = "1.10.2"
+
+[libraries]
+kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+geckoview = { module = "org.mozilla.geckoview:geckoview", version.ref = "geckoview" }
+tor-android = { module = "info.guardianproject:tor-android", version.ref = "torAndroid" }
+jtorctl = { module = "info.guardianproject:jtorctl", version.ref = "jtorctl" }
+iptproxy = { module = "com.netzarchitekten:IPtProxy", version.ref = "iptproxy" }
+compose-bom = { module = "androidx.compose:compose-bom", version.ref = "composeBom" }
+compose-ui = { module = "androidx.compose.ui:ui" }
+compose-ui-text = { module = "androidx.compose.ui:ui-text" }
+compose-material3 = { module = "androidx.compose.material3:material3" }
+compose-icons = { module = "androidx.compose.material:material-icons-extended" }
+activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activity" }
+fragment = { module = "androidx.fragment:fragment-ktx", version.ref = "fragment" }
+lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycle" }
+core = { module = "androidx.core:core-ktx", version.ref = "core" }
+splashscreen = { module = "androidx.core:core-splashscreen", version.ref = "splashscreen" }
+biometric = { module = "androidx.biometric:biometric", version.ref = "biometric" }
+coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }

@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+  "name": "Antumbra isolation",
+  "version": "1.1",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "isolation@antumbra.app"
+    }
+  },
+  "permissions": [
+    "proxy",
+    "webRequest",
+    "<all_urls>",
+    "nativeMessaging",
+    "nativeMessagingFromContent",
+    "geckoViewAddons"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ]
+}

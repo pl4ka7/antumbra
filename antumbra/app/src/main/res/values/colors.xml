@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="surface">#F6F4EF</color>
+    <color name="mark">#15171A</color>
+    <color name="icon_background">#0C0E11</color>
+    <color name="icon_mark">#ECE9E2</color>
+    <color name="discreet_background">#E8EAED</color>
+    <color name="discreet_mark">#5F6368</color>
+</resources>

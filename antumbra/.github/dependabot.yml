@@ -1,0 +1,16 @@
+version: 2
+updates:
+  - package-ecosystem: gradle
+    directory: /
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+    groups:
+      browser-engine:
+        patterns: ["org.mozilla.geckoview:*"]
+      tor:
+        patterns: ["info.guardianproject:*", "com.netzarchitekten:*"]
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly

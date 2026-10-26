@@ -1,0 +1,55 @@
+Antumbra è un browser privato che fa passare ogni pagina dalla rete Tor. I siti vedono un relay Tor al posto del tuo indirizzo IP, la tua rete vede traffico cifrato al posto dei siti che visiti, e sul telefono non resta niente.
+
+IDENTITÀ, NON SOLO SCHEDE
+• Tieni separati Personale, Lavoro e Ricerca, o crea i tuoi spazi identità.
+• Ogni identità ha cookie, accessi e circuiti Tor propri, quindi i siti non possono collegarle, anche se sei connesso a due account sullo stesso sito.
+
+LEGGI, SALVA, RIASSUMI
+• La modalità lettura riduce la pagina al solo testo: niente script, niente tracker, dimensione regolabile.
+• Riassumi qualsiasi articolo con l'AI, sempre tramite Tor.
+• Salva le pagine in una cassaforte cifrata con una chiave protetta dall'hardware. Nulla viene mai sincronizzato.
+• Una directory integrata di indirizzi onion verificati: BBC, The Guardian, ProPublica, Proton Mail, DuckDuckGo e altri.
+
+UNO SCUDO PER OGNI SITO
+• Vedi i tracker bloccati su ogni pagina, il circuito usato e l'identità.
+• Disattiva JavaScript o richiedi la versione desktop per singola scheda.
+• Trova nella pagina, download tramite Tor, e Antumbra può essere il tuo browser predefinito.
+
+COSTRUITO SU TOR
+• Tor gira dentro l'app. Non servono altre app né account.
+• Ogni sito ha il proprio circuito Tor, così i siti non possono collegare le tue visite tramite un'uscita condivisa.
+• Guarda il circuito dietro ogni pagina: relay di guardia, intermedio e di uscita, con il loro paese.
+• "Nuovo circuito per questo sito" e "Nuova identità" quando vuoi ripartire da zero.
+• Sicuro per impostazione: se Tor cade, le pagine smettono di caricarsi. Niente ripiega su una connessione diretta.
+
+FUNZIONA DOVE TOR È BLOCCATO
+• Bridge Snowflake, obfs4 e meek integrati, aggiornati tramite Tor.
+• La modalità automatica parte diretta e passa da sola ai bridge quando la rete blocca Tor.
+• Aggiungi i tuoi bridge, scegli il paese di uscita o collegati tramite un proxy.
+
+NON LASCIA TRACCE
+• Ogni scheda è privata. Schede, cookie e cronologia restano solo in memoria.
+• Screenshot e anteprima nelle app recenti sono bloccati. La tastiera funziona in modalità incognito.
+• Auto-cancellazione quando esci dall'app o dopo qualche minuto fuori.
+• Blocco con impronta o blocco schermo, icona discreta nel launcher e un riquadro nelle Impostazioni rapide che cancella tutto con un tocco.
+
+MOTORE RINFORZATO
+• Motore Gecko con protezione dal fingerprinting, protezione antitracciamento rigorosa e modalità solo HTTPS.
+• Tre livelli di sicurezza, dai siti completi a JavaScript disattivato ovunque.
+• WebRTC, posizione, sensori di movimento, download e link verso altre app sono bloccati, perché ognuno può rivelare chi sei.
+• I siti onion sono supportati nativamente, e Antumbra propone la versione .onion quando un sito ne ha una.
+• Ricerca privata tramite i servizi onion di DuckDuckGo, Brave Search e Ahmia.
+
+CHIEDI ALL'AI, IN PRIVATO
+• Chatta con centinaia di modelli usando la tua chiave OpenRouter, oppure qualsiasi endpoint compatibile OpenAI, anche un tuo server su indirizzo onion.
+• Le richieste passano da Tor, quindi il provider non vede mai il tuo indirizzo IP. Le chat non vengono mai salvate.
+• L'instradamento senza conservazione dei dati è attivo per impostazione predefinita.
+
+WALLET E ALTRE APP
+• Antumbra può condividere la sua connessione Tor con wallet e altre app che supportano un proxy SOCKS5.
+• I link di pagamento e WalletConnect si aprono solo dopo una tua conferma, con un avviso chiaro su cosa esce da Tor.
+
+LIMITI, DETTI CHIARAMENTE
+Antumbra non è identica a Tor Browser, quindi un sito può distinguerle. Nessuno strumento ti protegge se accedi ai tuoi account o condividi dati personali. Per situazioni ad alto rischio usa Tor Browser o Tails.
+
+Antumbra non è affiliata né approvata da The Tor Project. Tor è un marchio di The Tor Project, Inc.
